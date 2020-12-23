@@ -59,11 +59,11 @@ about the [steps post-install to Docker](https://docs.docker.com/engine/install/
 
 You can find the Docker repository to this project at ( [Docker repository](https://hub.docker.com/r/broje/dapp) ), Execute the following command to download the image:
 
-docker pull broje/dapp
+`docker pull broje/dapp`
 
 Once the image is downloaded correctly, execute the following command:
 
-docker run -it -p 3000:3000 broje/dapp
+`docker run -it -p 3000:3000 broje/dapp`
 
 This will allow you to start the Dapp from your browser by going to http://localhost:3000/.
 
