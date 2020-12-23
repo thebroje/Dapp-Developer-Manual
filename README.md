@@ -41,9 +41,34 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+at the [Create a react App](https://reactjs.org/docs/getting-started.html).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+About React, check the [React documentation](https://github.com/facebook/react/)
+
+about Web3 in the [Web3 JavaScript dapp documentation](https://docs.google.com/document/d/12SvvrU0BxqrXBGTSTFE6PjuiITq79OuOEi0zAOR1P5I/edit#heading=h.dv3zeb6n61cv)
+
+about [How to set up the Energi testnet on MetaMask](https://docs.google.com/document/d/1SHJClzgSmZWgQnGAo7XaCxsj7JBzkEbhExkXstbGG5k/edit)
+
+about [How to install Docker on your OS](https://docs.docker.com/engine/install/)
+
+
+about the [steps post-install to Docker](https://docs.docker.com/engine/install/linux-postinstall/)
+
+
+###Docker
+
+You can find the Docker repository to this project at ( [Docker repository](https://hub.docker.com/r/broje/dapp) ), Execute the following command to download the image:
+
+docker pull broje/dapp
+
+Once the image is downloaded correctly, execute the following command:
+
+docker run -it -p 3000:3000 broje/dapp
+
+This will allow you to start the Dapp from your browser by going to http://localhost:3000/.
+
+Here is the documentation for [Windows](https://docs.google.com/document/d/19PXZSRFCZG4Z6c9X_MQgZhN2PH45A2K3yWK7QUM6UqM/edit#), [Linux](https://docs.google.com/document/d/13PmFk3SSZxQxjv8nkJVMKadLOfQg01kZEMaMSBFeH8o/edit#), [Mac](https://docs.google.com/document/d/17AVzwlKbc4jALGqkTSuHhz3ki0mEbWNZFX0VcQeSNDA/edit#heading=h.8raylddb6pwm) of this project.
+
 
 ### Code Splitting
 
